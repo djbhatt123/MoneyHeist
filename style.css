@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    text-decoration: underline;
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: bold;
+       text-align: center;
+       text-transform: uppercase;
+   }
+   .container{
+       margin: 10px;
+       padding: 5px 20px 15px 20px;
+       background-color:#f2f2f2;
+       border: 1px solid lightgrey;
+       border-radius: 4px;
+   }
+   
+   }
+   .left{
+       text-align: left;
+       text-transform: uppercase;
+       font-weight: bold;
+       font-family: 'Courier New', Courier, monospace;
+    
+   }
+   .center{
+       text-align: center;
+       text-transform: uppercase;
+       font-weight: bold;
+       font-family: 'Courier New', Courier, monospace;
+       background-color: rgba(185, 10, 10, 0.918);
+       color: black;
+       text-decoration: underline;
+
+   }
+   nav{
+       background-color: black;
+
+   }
+   nav a{
+       color: white;
+       padding: 20px;
+       text-decoration: none;
+       font-size: 20px;
+       text-align: left;
+       
+   }
+   p{
+       font-weight: bold;
+       font-family: 'Courier New', Courier, monospace;
+   }
+   legend{
+       font-weight: bold;
+       font-family: 'Courier New', Courier, monospace;
+
+   }
+   input{
+       font-weight: bold;
+       font-family: 'Courier New', Courier, monospace;
+
+   }
+   select{
+       font-weight: bold;
+       font-family: 'Courier New', Courier, monospace;
+   }
+   a{
+       font-weight: bold;
+       font-family: 'Courier New', Courier, monospace;
+       text-decoration:none ;
+       color: black;
+
+   }
+   a:hover{
+       color: red;
+   }
+   input:hover{
+       color: green;
+   }
+   footer{
+   background-color: black;
+   }
+   footer a{
+       color: white;
+       text-decoration: none;
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 20px;
+       padding: 20px;
+       font-weight: bold;
+
+   }
+   a:hover{
+       color: red;
+   }
+   input[type="text"],
+   input[type="email"],
+   input[type="password"],
+   input[type="date"],
+   select,
+   textarea{
+       width: 100%;
+       padding: 12px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+   }
+   fieldset{
+       background-color: #fff;
+       border: 1px solid #ccc;
+       border-radius: 4px
+   }
+
+   input[type="submit"]
+   {
+    background-color: #4daea1;
+    color: #ccc;
+    padding: 12px 20px;
+    border:none;
+    cursor: pointer;
+    width: 49%;
+
+}
+    input[type="reset"]{
+        background-color: red;
+        color:#ccc;
+        padding: 12px 20px;
+        border: none;
+        cursor:pointer;
+        width: 49%;
+    }
+    input[type="submit"]:hover{
+        background-color: #33af79ad;
+    }
+    input[type="reset"]:hover{
+        background-color: rgb(88, 6, 6);
+
+    }
+   
+   
